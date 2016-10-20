@@ -6857,8 +6857,9 @@ button.close {
 }
 .footer {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   height: 60px;
+  width: 100%;
 }
 .ul {
   margin-left: -20px;
