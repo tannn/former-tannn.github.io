@@ -77,3 +77,10 @@ body {
     border-bottom: 0;
   }
 }
+
+::selection {
+  background: #FFD700; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFD700; /* Gecko Browsers */
+}
