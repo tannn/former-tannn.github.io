@@ -1,9 +1,6 @@
 /* Space out content a bit */
 body {
   padding-top: 20px;
-  padding-bottom: 20px;
-  height: 100%;
-  margin-bottom: 60px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -17,6 +14,7 @@ body {
 /* Custom page header */
 .header {
   padding-bottom: 20px;
+  margin-bottom: 5%;
   border-bottom: 1px solid #e5e5e5;
 }
 /* Make the masthead heading the same height as the navigation */
@@ -24,7 +22,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-  padding: 10px;
 }
 
 /* Custom page footer */
@@ -32,17 +29,6 @@ body {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
-  bottom: 0;
-  width:100%;
-  position: relative;
-  left:0;
-}
-
-.wrapper {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto 100px;
-    padding-bottom: 100px;
 }
 
 /* Customize container */
@@ -63,11 +49,6 @@ body {
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
-}
-
-.container {
-  min-height:100%;
-  position:relative;
 }
 
 /* Supporting marketing content */
@@ -95,11 +76,4 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
-}
-
-::selection {
-  background: #FFD700; /* WebKit/Blink Browsers */
-}
-::-moz-selection {
-  background: #FFD700; /* Gecko Browsers */
 }
