@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="test.js"></script>
+
+<style>
+body {
+    margin: 0px;
+    font-family: Helvetica, Arial;
+    height: 2000px;
+}
+.nav {
+    width: 100%;
+    height: 40px;
+    background: #2A2A2A;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    margin-top: calc(100vh - 40px);
+}
+.fixedTop {
+    position: fixed;
+    margin-top: 0 !important;
+}
+.nav li {
+    transition: all 0.5s ease;
+    display:inline-block; 
+    line-height: 0px !important;
+    list-style:none;
+}
+.nav ul {
+    max-width:850px; 
+    margin:0 auto;
+}
+/*#intro-titles {
+	/*padding: 200px 0px 125px 0px ; */
+/*}*/
+
+/*.intro {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}*/
+
+/*#title {
+    font-size: 100pt;
+    font-weight: lighter;
+}*/
+
+/*.subtitle {
+	font-size: 40pt;
+	position:relative;
+    margin-top: 50px;
+    font-weight: lighter;
+}*/
+</style>
+</head>
+<body>
+
+	<div class="intro">
+		<div id="intro-titles">
+		<div id="intro-title">
+			<h1 id="title">Tanner <span style ="font-weight: 500;">Marino</span></h1>
+		</div>
+		<div id="subtitles">
+			<h1 class="subtitle">Computer Science Student</h1>
+		</div>
+		</div>
+	</div>
+
+	<nav class="nav">
+	     <ul>
+	         <li><a href="#about">About</a></li>
+	         <li><a href="#resume">Resume</a></li>
+	         <li><a href="#portfolio">Portfolio</a></li>
+	         <li><a href="#contact">Contact</a></li>
+	     </ul>
+	</nav>
+</body>
+</html>
