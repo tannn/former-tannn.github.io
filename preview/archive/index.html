@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Tanner Marino">
+    <title>Tanner Marino</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600,500,400,300" rel="stylesheet" type="text/css">
+    <!-- Google Analytics Script -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-85991084-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <script>
+	$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+    <link href="stylesheet.css" rel="stylesheet">
+  </head>
+  <body>
+
+	<div class="intro">
+		<div id="intro-titles">
+		<div id="intro-title">
+			<h1 id="title">Tanner <span style ="font-weight: 500;">Marino</span></h1>
+		</div>
+		<div id="subtitles">
+			<h1 class="subtitle">Computer Science Student</h1>
+		</div>
+		</div>
+		</div>
+	<nav class="nav">
+	     <ul>
+	         <li><a href="#about">About</a></li>
+	         <li><a href="#resume">Resume</a></li>
+	         <li><a href="#portfolio">Portfolio</a></li>
+	         <li><a href="#contact">Contact</a></li>
+	     </ul>
+	</nav>
+	
+
+	<div id="page1">
+	  <a id="about"></a>
+	    About page content goes here.
+	</div>
+
+	<div id="page2">
+	  <a id="resume"></a>
+	    Resume page content goes here.
+	</div>
+
+	<div id="page3">
+	  <a id="portfolio"></a>
+	    Portfolio page content goes here.
+	</div>
+
+	<div id="page4">
+	  <a id="contact"></a>
+	    Contact page content goes here.
+	</div>
+
+  </body>
+</html>
