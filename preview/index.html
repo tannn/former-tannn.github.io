@@ -12,17 +12,14 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="js/jquery.min.js"></script>
 
-<script	src="js/jquery.smint.js" type="text/javascript" ></script>
 
 <script type="text/javascript">
-	
 
 $(document).ready( function() {
     $('.subMenu').smint({
     	'scrollSpeed' : 1000
     });
 });
-
 
 </script>
 
@@ -35,7 +32,7 @@ $(document).ready( function() {
 			<h1 id="title">Tanner <span style ="font-weight: 500;">Marino</span></h1>
 		</div>
 		<div id="subtitles">
-			<h1 class="subtitle">Computer Science Student</h1>
+			<h2 class="subtitle">Computer Science Student</h1>
 		</div>
 	</div>
 </div>
@@ -43,7 +40,7 @@ $(document).ready( function() {
 	<div class="subMenu" >
 	 	<div class="inner">
 	 		<!--<a href="#sTop" class="subNavBtn">Top</a>-->
-	 		<a href="#about" class="subNavBtn">About</a> 
+	 		<a href="#about" class="subNavBtn">About</a>
 			<a href="#resume" class="subNavBtn">Resume</a>
 			<a href="#portfolio" class="subNavBtn">Portfolio</a>
 			<a href="#contact" class="subNavBtn">Contact</a>
@@ -52,20 +49,62 @@ $(document).ready( function() {
 
 	<div class="section about">
 		<div class="inner ">
-			<h1>About</h1>
+			<h3>About</h3>
 			<img src="images/TannerMarino.png" class="portfolioPic">
 			<p>I am a sophomore at the University of Nebraska-Lincoln studying Computer Science. I love using technology to solve problems and make lives easier. I am currently located in Nebraska but seeking internship positions all over the country. I work part-time with the University in the Office of Research and Economic Development Department as a Software Developer Intern.</p>
-
-		</div>
+      <p><strong>This page is still a work in progress and is only meant to serve as a preview.</strong></p>
+    </div>
 	</div>
 
 	<div class="section resume">
 		<div class="inner">
-			<h1>Resume</h1>
-			<h4>Current work</h4>
-			<h4>Technical skills</h4>
+			<h3>Resume</h3>
+			<h4>Work Experience</h4>
+      <p>Software Developer Intern, University of Nebraska-Lincoln <span class="floatRight">May 2016 - Present</span></p>
+      <p>Undergraduate Teaching Assistant, University of Nebraska-Lincoln <span class="floatRight">January 2016 - May 2016</span></p>
+      <p>IT Intern, Creighton University <span class="floatRight">June 2015 - August 2015</span></p>
 			<h4>Education</h4>
-			<h4>Leadership</h4>
+			<p>I am sohphomore pursing a Bachelor of Science degree in Computer Science at the University of Nebraska-Lincoln. I currently hold a GPA of 3.368 and plan on graduating in May 2019.</p>
+      <h4>Programming Experience</h4>
+      <div class="floatRight"><strong>Databases</strong><p>MySQL, Microsoft SQL Server</p><strong>Miscellaneous</strong><p>Git, Unix, Eclipse, Unity</p><strong>Web Development</strong><p>HTML, XML, CSS, JavaScript, JSON</p></div>
+      <svg id="svg"></svg>
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js'></script>
+<script>
+var programmingSkills = [
+    {
+        value: 30,
+        label: 'Java',
+        color: '#3399FF'
+    },
+    {
+        value: 23,
+        label: 'PHP',
+        color: '#FFC575'
+    },
+    {
+        value: 17,
+        label: 'JavaScript',
+        color: '#99CC00'
+    },
+    {
+        value: 12,
+        label: 'HTML5',
+        color: '#FF3300'
+    },
+    {
+        value: 18,
+        label: 'CSS3',
+        color: '#944DDB'
+    },
+];
+</script>
+<script src="js/svg-donut-chart-framework.js"></script>
+<script	src="js/jquery.smint.js" type="text/javascript" ></script>
+<p>I am currently learning C++. I have limited experience with C#, Swift, and Python.</p>
+      <h4>Leadership</h4>
+			<p>Treasurer, Computer Science Student Advisory Board <span class="floatRight">April 2016 - Present</span></p>
+			<p>Secretary, Pi Kappa Phi Fraternity <span class="floatRight">November 2016 - Present</span></li></p>
 		</div>
 	</div>
 
@@ -73,16 +112,17 @@ $(document).ready( function() {
 
 	<div class="section portfolio">
 		<div class="inner">
-			<h1>Portfolio</h1>
+			<h3>Portfolio</h3>
+      <p>View on <a href="http://github.com/tannn">GitHub</a></p>
 		</div>
 	</div>
 
 	<div class="section contact">
 		<div class="inner">
-			<h1>Contact</h1>
+			<h3>Contact</h3>
 		</div>
 	</div>
-	
+
 </div>
 
 </body>
