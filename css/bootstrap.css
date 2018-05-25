@@ -6829,28 +6829,28 @@ button.close {
 }
 
 .soc-mail {
-    background-color: #808080;
+    background-color: #00cc00;
 }
 .soc-mail:hover {
-    background-color: #00cc00;
+    background-color: #332A2A;
 }
 .soc-mail:before {
     content:'\e01f';
 }
 .soc-linkedin {
-    background-color: #808080;
+    background-color: #3371b7;
 }
 .soc-linkedin:hover {
-    background-color: #3371b7;
+    background-color: #332A2A;
 }
 .soc-linkedin:before {
     content:'\e049';
 }
 .soc-github {
-    background-color: #808080;
+    background-color: #ff6600;
 }
 .soc-github:hover {
-    background-color: #ff6600;
+    background-color: #332A2A;
 }
 .soc-github:before {
     content:'\e030';
